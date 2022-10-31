@@ -51,25 +51,58 @@ $ cd udemy
 Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy
 $ cd js
 
-Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js
-$ ce Exp
-bash: ce: command not found
 
-Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js
-$ cd Exp
-
-Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp
-$ cd 05-Guess-My-Number
-
-Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number
-$ ls
-Git.txt  final/  starter/
-
-Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number
-$ git init
-Initialized empty Git repository in D:/Udemy/JS/Exp/05-Guess-My-Number/.git/
-
-Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number
-$
 
 >>>>>>>>>>>stage, tracked and untracked
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .prettierrc
+        Git.txt
+        final/
+        index.html
+        script.js
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number (master)
+$ git add index.html
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number (master)
+$ git add index.html
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number (master)
+$ git add script.js
+warning: in the working copy of 'script.js', LF will be replaced by CRLF the next time Git touches it
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number (master)
+$ git add style.css
+warning: in the working copy of 'style.css', LF will be replaced by CRLF the next time Git touches it
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number (master)
+$ git add .prettierrc
+warning: in the working copy of '.prettierrc', LF will be replaced by CRLF the next time Git touches it
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number (master)
+$ git status
+On branch master
+
+>>>>>>>>>>>>>
+git diff filename
+
+git checout to discard changes to a file
+
+$ git remote -v to check remote repo
+
+to add remote repo
+
+$ git remote add origin "https://github.com/Jayanthasb/NumberGameJenkins.git"
+
+
