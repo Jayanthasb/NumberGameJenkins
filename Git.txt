@@ -1,0 +1,75 @@
+https://github.com/Jayanthasb/NumberGameJenkins.git
+
+commands & responses;
+>>>>>>install git and config username and email
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 ~
+$ git config --global user.name "jayanthasb"
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 ~
+$ git config user.name
+jayanthasb
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 ~
+$ git config --global user.email jayanthasb@gmail.com
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 ~
+$ git config user.email
+jayanthasb@gmail.com
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 ~
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=jayanthasb
+user.email=jayanthasb@gmail.com
+
+>>>>>>>
+create a local repository
+Jayantha@DESKTOP-5CTMGS3 MINGW64 ~
+$ cd D:
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d
+$ pwd
+/d
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d
+$ cd udemy
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy
+$ cd js
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js
+$ ce Exp
+bash: ce: command not found
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js
+$ cd Exp
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp
+$ cd 05-Guess-My-Number
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number
+$ ls
+Git.txt  final/  starter/
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number
+$ git init
+Initialized empty Git repository in D:/Udemy/JS/Exp/05-Guess-My-Number/.git/
+
+Jayantha@DESKTOP-5CTMGS3 MINGW64 /d/udemy/js/Exp/05-Guess-My-Number
+$
+
+>>>>>>>>>>>stage, tracked and untracked
